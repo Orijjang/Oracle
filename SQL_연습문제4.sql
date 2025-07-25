@@ -274,5 +274,5 @@ FROM member m
 WHERE m.member_id IN (
     SELECT l.member_id
     FROM loan l
-    WHERE l.book_id = 10003
+    WHERE l.book_id = 10004
 );
