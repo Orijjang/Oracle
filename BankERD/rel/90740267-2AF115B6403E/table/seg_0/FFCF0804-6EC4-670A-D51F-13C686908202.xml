@@ -20,16 +20,20 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="t_a_no" id="FBB39759-D0D9-930C-E113-5C8E47724368">
+<Column name="t_a_no" id="8E92EF4E-BCD1-6C70-5BB3-6F06F371BD8C">
 <createdBy>GGG</createdBy>
-<createdTime>2025-08-11 02:25:21 UTC</createdTime>
+<createdTime>2025-08-11 02:26:38 UTC</createdTime>
 <ownerDesignName>BankERD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="505055FA-9B05-8F88-26AB-46DA523AF215" referredColumn="AEB4F0DA-0161-8499-C934-9F956F192A78"/>
+</associations>
 </Column>
 <Column name="t__dist" id="986ED1DE-C156-9E78-C626-F97A9C393016">
 <createdBy>GGG</createdBy>
@@ -72,6 +76,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="82852A41-6C92-E0B4-15EC-227D82DF1205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A47D8547-22E0-9FD0-2602-6E137667D5D8" name="bank_transaction_bank_account_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:26:38 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E92EF4E-BCD1-6C70-5BB3-6F06F371BD8C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

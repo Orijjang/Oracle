@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="bank_customer" directorySegmentName="seg_0" id="B2EB1FDA-034A-4B47-890E-D8377DAA47DE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="c_phone" id="30BFAD19-F320-59D2-9074-6C9525E956D8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="c_no" id="36BDC07A-67DB-6EEA-BA4A-43D04B0916C9">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="c_name" id="5CCFA4D3-0E86-2312-53D0-FBAE55361298">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="c_dist" id="D0EDE9A1-C4D5-0E12-6158-6CE6F526082B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="c_addr" id="D1DC4180-71F3-5346-F78F-112A0E946357">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BankERD_PK" id="7C372A3A-19B5-3C2C-EF58-5E4902584FAE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

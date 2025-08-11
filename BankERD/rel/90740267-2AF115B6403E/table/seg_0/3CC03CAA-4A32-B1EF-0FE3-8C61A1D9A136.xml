@@ -41,16 +41,21 @@
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="a_c_no" id="BF36CBAB-2D24-2205-FA9F-82D04043B0E6">
+<Column name="a_c_no" id="A6D29339-D6C9-91C0-ADA5-A2B4F074E1FB">
 <createdBy>GGG</createdBy>
-<createdTime>2025-08-11 02:23:43 UTC</createdTime>
+<createdTime>2025-08-11 02:26:50 UTC</createdTime>
 <ownerDesignName>BankERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>14</dataTypeSize>
-<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1B20D06-E7B3-6C2B-019E-539D36586A9D" referredColumn="36BDC07A-67DB-6EEA-BA4A-43D04B0916C9"/>
+</associations>
 </Column>
 <Column name="a_balance" id="2826512E-7C52-7EA9-101D-50E488D912CF">
 <createdBy>GGG</createdBy>
@@ -83,6 +88,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AEB4F0DA-0161-8499-C934-9F956F192A78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9070690F-FED1-F372-AD2A-DC5F3C69A059" name="bank_account_bank_customer_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:26:50 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6D29339-D6C9-91C0-ADA5-A2B4F074E1FB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

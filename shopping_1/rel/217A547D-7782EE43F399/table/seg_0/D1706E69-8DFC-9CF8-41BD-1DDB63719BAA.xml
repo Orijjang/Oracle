@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1706E69-8DFC-9CF8-41BD-1DDB63719BAA" name="Register">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:20:01 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="regStdNo" id="A16E5B44-D99F-5F21-C1E3-6D3151AAE56E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:22:28 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2B00934-EF59-9E6A-C8C5-4F5D1B44BF03" referredColumn="453EE9F5-942B-D433-52C5-FF996836AFFE"/>
+</associations>
+</Column>
+<Column name="regLecNo" id="D44EE532-9CF3-3DDD-72A8-85011C6F50E0">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:23:01 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F434C093-A206-C1B1-2C25-7F932F3DEA2F" referredColumn="5ADB53AC-1710-4358-9AFB-13A70D28B53D"/>
+</associations>
+</Column>
+<Column name="regMidScore" id="CA0B0038-CFA8-D852-B069-9F6C3874D041">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:21:28 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regFinalScore" id="12D7B7CC-13E6-EF0F-23F3-B0D357C84E4D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:21:28 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regTotalScore" id="08C5B924-9788-A01C-70F4-7BE0F3E6A86E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:21:28 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regGrade" id="9A06B87E-5B05-216F-158E-28C91C252346">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:21:28 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B528DF2-B5F7-06F2-8460-7378834ACC30" name="Register_Lecture_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:22:28 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A16E5B44-D99F-5F21-C1E3-6D3151AAE56E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBE077C5-5995-B788-B74A-CA07C68ADDA2" name="Register_Student_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:23:01 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D44EE532-9CF3-3DDD-72A8-85011C6F50E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

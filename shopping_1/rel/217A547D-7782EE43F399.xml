@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="College" id="217A547D-6EF2-4E79-88E9-7782EE43F399" mainViewID="887DDD26-06CA-6054-9173-50D69B06EFA8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:13:24 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+</relationalModel>

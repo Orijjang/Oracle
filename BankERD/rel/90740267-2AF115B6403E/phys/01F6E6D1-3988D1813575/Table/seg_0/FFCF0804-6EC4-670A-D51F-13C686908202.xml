@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="bank_transaction" directorySegmentName="seg_0" id="FFCF0804-6EC4-670A-D51F-13C686908202">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="t_amount" id="7F8376D9-5590-C45D-28BF-82AC5B970F6F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_no" id="82852A41-6C92-E0B4-15EC-227D82DF1205">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_a_no" id="8E92EF4E-BCD1-6C70-5BB3-6F06F371BD8C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t__dist" id="986ED1DE-C156-9E78-C626-F97A9C393016">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_datetime" id="DFEAD8B1-8F0D-DD2D-A9B7-69111670A7D2">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="bank_transaction_bank_account_FK" id="A47D8547-22E0-9FD0-2602-6E137667D5D8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="bank_transaction_PK" id="3013132F-2D3A-6596-E80C-A6C3A78C48BE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:30:36 UTC</createdTime>
+<ownerDesignName>BankERD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

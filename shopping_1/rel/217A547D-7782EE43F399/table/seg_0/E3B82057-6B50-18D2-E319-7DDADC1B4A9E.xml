@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3B82057-6B50-18D2-E319-7DDADC1B4A9E" name="Student">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:14:58 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stdNo" id="5ADB53AC-1710-4358-9AFB-13A70D28B53D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:16:42 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stdName" id="1E6247D3-1020-1410-FC37-B117AFA33671">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:16:42 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stdHp" id="74FDAB06-8FB2-7754-0493-AE6E47617DF7">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:16:42 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stdYear" id="D4F42DC9-51AE-B58A-16BC-A4FB220A1A26">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:16:42 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stdAddress" id="2C0E6A72-FB96-4B07-18E0-1FD226380A8B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:16:42 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32A5C8E7-9905-64C7-0DFB-C44285010F8D" name="Student_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:16:42 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADB53AC-1710-4358-9AFB-13A70D28B53D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A7418E8-D5BD-B660-BD87-2CB3DA8D07C8" name="Student__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:18:21 UTC</createdTime>
+<ownerDesignName>shopping_1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74FDAB06-8FB2-7754-0493-AE6E47617DF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
