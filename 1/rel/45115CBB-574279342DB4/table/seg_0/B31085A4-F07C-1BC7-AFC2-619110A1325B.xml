@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B31085A4-F07C-1BC7-AFC2-619110A1325B" name="User">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:31:22 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="userId" id="10329542-A27B-22CC-F84C-02397542EC91">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5C4535F7-034C-DFAB-6106-E3BBF3BEC752">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth" id="0EBE933B-4D63-ACB3-D47E-01B40C10FC3B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="F17263E1-F4D9-0BE3-45A1-7AF410E2DA77">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hp" id="1CBA05D9-D005-7D7A-8BC4-1D70C674C79C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="7E7B3631-7F75-395C-DEFF-EFCB5B3381DF">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="point" id="EB07BCF1-1534-12C3-82E0-1AA4DC64924A">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="level" id="DF12AB0E-2C29-3E3A-E8C3-1E99E6F808A8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="60DF22A0-667A-814C-5F7A-0B8DE0C0A252">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regDate" id="70ECB0D2-04DF-E219-E85C-4E81D20B327F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D64A1764-E7C1-4C75-4991-A746564B1616" name="User_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10329542-A27B-22CC-F84C-02397542EC91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAF13B48-D4E2-7A80-3EA5-1F3DEEDC376C" name="User__UNv2">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:35:56 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CBA05D9-D005-7D7A-8BC4-1D70C674C79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B0AA8B8-1AB1-8E5B-3026-7C185D9B211E" name="User__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:36:07 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E7B3631-7F75-395C-DEFF-EFCB5B3381DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

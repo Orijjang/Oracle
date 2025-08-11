@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40D9F9E9-A114-2402-A402-6361CA88FD82" name="OrdersItem">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:49:48 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="itemNo" id="7826EE4C-43C9-E598-1165-2B9A06FDD7E8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:51:34 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderNo" id="828D4E9D-DDDD-82F6-D991-4867EFBC45B3">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:55:45 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="603938F1-E4BC-806B-CC88-D73A367947D8" referredColumn="2AF900B6-A391-F27F-A43A-10F4A77834F6"/>
+</associations>
+</Column>
+<Column name="prodNo" id="56623CBC-2324-8BB3-F736-E8D7689C55BA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:55:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1D23883-8552-2F11-CC16-E371E87CCD2E" referredColumn="D4DE4D31-3663-E044-5FA8-3692DA8CB131"/>
+</associations>
+</Column>
+<Column name="itemPrice" id="C776C5B9-FBA9-CC46-5FB9-60C0DD1A7A62">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:51:34 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="itemDiscount" id="4A290B0B-0AE4-3E4F-C9CF-404559D8C944">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:51:34 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="itemCount" id="2A9C5B4F-8028-702A-8DD3-76B2B39B47E7">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:51:34 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="581EE3EF-DCA5-4E8E-AF89-A79A1F242C61" name="OrdersItem_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:51:34 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7826EE4C-43C9-E598-1165-2B9A06FDD7E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF2EE169-B661-B727-22DF-ACC25DF146BE" name="OrdersItem_Orders_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:55:45 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="828D4E9D-DDDD-82F6-D991-4867EFBC45B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B85DC2FA-F469-BDFD-00A0-A0DA192DF30F" name="OrdersItem_Product_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:55:54 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56623CBC-2324-8BB3-F736-E8D7689C55BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
