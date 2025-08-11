@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Register" directorySegmentName="seg_0" id="D1706E69-8DFC-9CF8-41BD-1DDB63719BAA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="regTotalScore" id="08C5B924-9788-A01C-70F4-7BE0F3E6A86E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regFinalScore" id="12D7B7CC-13E6-EF0F-23F3-B0D357C84E4D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regGrade" id="9A06B87E-5B05-216F-158E-28C91C252346">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regStdNo" id="A16E5B44-D99F-5F21-C1E3-6D3151AAE56E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regMidScore" id="CA0B0038-CFA8-D852-B069-9F6C3874D041">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regLecNo" id="D44EE532-9CF3-3DDD-72A8-85011C6F50E0">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Register_Lecture_FK" id="3B528DF2-B5F7-06F2-8460-7378834ACC30">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Register_Student_FK" id="EBE077C5-5995-B788-B74A-CA07C68ADDA2">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:24:13 UTC</createdTime>
+<ownerDesignName>collegeERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev20c>
