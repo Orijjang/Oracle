@@ -319,3 +319,6 @@ SELECT c.userid, c.prodno FROM cart c
 LEFT JOIN "User" u ON u.userid = c.userid
 LEFT JOIN product p ON p.prodno = c.prodno
 WHERE u.userid IS NULL OR p.prodno IS NULL;
+
+
+
