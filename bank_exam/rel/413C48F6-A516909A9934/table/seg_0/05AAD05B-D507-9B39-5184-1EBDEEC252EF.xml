@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05AAD05B-D507-9B39-5184-1EBDEEC252EF" name="Transaction">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:14:28 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trans_id" id="E9037B53-38E9-3D03-3FCF-7A2C1ED56AEC">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:16:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trans_acc_id1" id="443D2BD9-1D3E-39E7-BBB4-AC27F46A4AB8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:18:27 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC605943-1396-F0D8-63BB-4EDF896BF48E" referredColumn="11E2A3E0-85E4-A1B8-2B08-6244CA35E7DC"/>
+</associations>
+</Column>
+<Column name="trans_type" id="815CA692-7393-580E-B89A-E2F411F1674D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:16:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trans_message" id="C75836B5-EB53-2F02-3859-B94F6A97E7A7">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:16:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trans_money" id="39609CED-7987-9725-08F8-47B77AF1AF78">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:16:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trans_date" id="6E6FC698-F7AE-B2CC-0845-263AA7A7025C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:16:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B2624A5-F4F2-DFB3-8B16-D382D60B994A" name="Transaction_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:16:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9037B53-38E9-3D03-3FCF-7A2C1ED56AEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D81FBAAB-02B0-113E-D7C2-764ED475029F" name="Transaction_Account_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:18:27 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="443D2BD9-1D3E-39E7-BBB4-AC27F46A4AB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

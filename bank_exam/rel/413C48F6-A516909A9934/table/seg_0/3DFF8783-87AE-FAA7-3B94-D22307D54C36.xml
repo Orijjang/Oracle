@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DFF8783-87AE-FAA7-3B94-D22307D54C36" name="Customer">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:06:21 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cust_jumin" id="41B8779D-7897-B1F0-18F3-ED787DBF6F23">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="EBD2591D-CDBC-03AC-8D5D-5D0CAF74D2F4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="AAAA2FA9-C87E-0389-15EA-267256B770AA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth" id="DD38B2E3-27BC-BECB-0A9B-EEED960A12D4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="3D4D4A29-3C63-2D7A-B13C-B0C70517C392">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hp" id="0EB1238F-DF02-AD2C-1192-4320B79A35AD">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job" id="5425F340-DE15-57A4-16B2-15EB9E36E06E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA3C668B-C89D-F9EC-59F3-6094CDD102D6" name="Customer_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41B8779D-7897-B1F0-18F3-ED787DBF6F23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17499FBB-427B-9773-D31A-078FC90C7C7C" name="Customer__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:26 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D4D4A29-3C63-2D7A-B13C-B0C70517C392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B9B1004-2A7A-4B95-B590-A64BFDF65649" name="Customer__UNv1">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:33 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB1238F-DF02-AD2C-1192-4320B79A35AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

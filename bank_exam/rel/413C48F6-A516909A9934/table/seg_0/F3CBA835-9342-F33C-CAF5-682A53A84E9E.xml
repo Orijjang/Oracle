@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3CBA835-9342-F33C-CAF5-682A53A84E9E" name="Card">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:09:36 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="card_no" id="9A2B4524-BADA-EB74-F835-4072B009C85A">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:12:19 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_jumin1" id="9146F26F-67D7-B774-269B-CBA3A2306E50">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:17:43 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B698877-D8DA-DD58-9435-3090642F0A83" referredColumn="41B8779D-7897-B1F0-18F3-ED787DBF6F23"/>
+</associations>
+</Column>
+<Column name="acc_id1" id="AA93A9E8-C097-0634-7EAB-52C5A1EB4A76">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:18:19 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9618C6B5-35C0-135A-C41D-2196CB0B2C28" referredColumn="11E2A3E0-85E4-A1B8-2B08-6244CA35E7DC"/>
+</associations>
+</Column>
+<Column name="card_register_date" id="BFF3C83B-F28E-2008-F905-FC419A595FF5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:12:19 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="card_limit" id="363C3D1A-DCD9-3B7A-8C1C-9D339447CD1F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:12:19 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="card_approve_date" id="CA136B81-ECD5-DFC8-6F64-5C058674F558">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:12:19 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="card_type" id="03FEDEDE-0468-782A-AEF8-4115A8A6223C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:12:19 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80E03B6D-CF39-2DEA-6CBD-2ED68F5087F5" name="Card_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:12:19 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A2B4524-BADA-EB74-F835-4072B009C85A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACDF62D3-DF5E-C180-3AAB-892832AFD167" name="Card_Customer_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:17:43 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9146F26F-67D7-B774-269B-CBA3A2306E50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="345DB150-1CDB-0DA3-5233-9620D44D6B5C" name="Card_Account_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:18:19 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA93A9E8-C097-0634-7EAB-52C5A1EB4A76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
