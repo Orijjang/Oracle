@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="trans_acc_id1" id="443D2BD9-1D3E-39E7-BBB4-AC27F46A4AB8">
+<Column name="trans_acc_id" id="443D2BD9-1D3E-39E7-BBB4-AC27F46A4AB8">
 <createdBy>GGG</createdBy>
 <createdTime>2025-08-13 00:18:27 UTC</createdTime>
 <ownerDesignName>bank_exam</ownerDesignName>

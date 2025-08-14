@@ -19,7 +19,7 @@
 <ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cust_jumin1" id="780B002E-2078-5CA0-FED1-3DC0835CF8CD">
+<Column name="cust_jumin" id="780B002E-2078-5CA0-FED1-3DC0835CF8CD">
 <createdBy>GGG</createdBy>
 <createdTime>2025-08-13 00:19:12 UTC</createdTime>
 <ownerDesignName>bank_exam</ownerDesignName>

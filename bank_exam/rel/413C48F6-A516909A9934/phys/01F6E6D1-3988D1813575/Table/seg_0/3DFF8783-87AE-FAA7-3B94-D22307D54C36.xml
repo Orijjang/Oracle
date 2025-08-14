@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Customer" directorySegmentName="seg_0" id="3DFF8783-87AE-FAA7-3B94-D22307D54C36">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="hp" id="0EB1238F-DF02-AD2C-1192-4320B79A35AD">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="3D4D4A29-3C63-2D7A-B13C-B0C70517C392">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cust_jumin" id="41B8779D-7897-B1F0-18F3-ED787DBF6F23">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="job" id="5425F340-DE15-57A4-16B2-15EB9E36E06E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address" id="AAAA2FA9-C87E-0389-15EA-267256B770AA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="birth" id="DD38B2E3-27BC-BECB-0A9B-EEED960A12D4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="EBD2591D-CDBC-03AC-8D5D-5D0CAF74D2F4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Customer_PK" id="DA3C668B-C89D-F9EC-59F3-6094CDD102D6">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Customer__UN" id="17499FBB-427B-9773-D31A-078FC90C7C7C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Customer__UNv1" id="1B9B1004-2A7A-4B95-B590-A64BFDF65649">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:21:56 UTC</createdTime>
+<ownerDesignName>bank_exam</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

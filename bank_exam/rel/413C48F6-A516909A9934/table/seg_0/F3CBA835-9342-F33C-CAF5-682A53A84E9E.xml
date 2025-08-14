@@ -19,7 +19,7 @@
 <ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cust_jumin1" id="9146F26F-67D7-B774-269B-CBA3A2306E50">
+<Column name="cust_jumin" id="9146F26F-67D7-B774-269B-CBA3A2306E50">
 <createdBy>GGG</createdBy>
 <createdTime>2025-08-13 00:17:43 UTC</createdTime>
 <ownerDesignName>bank_exam</ownerDesignName>
@@ -35,7 +35,7 @@
 <colAssociation fkAssociation="6B698877-D8DA-DD58-9435-3090642F0A83" referredColumn="41B8779D-7897-B1F0-18F3-ED787DBF6F23"/>
 </associations>
 </Column>
-<Column name="acc_id1" id="AA93A9E8-C097-0634-7EAB-52C5A1EB4A76">
+<Column name="acc_id" id="AA93A9E8-C097-0634-7EAB-52C5A1EB4A76">
 <createdBy>GGG</createdBy>
 <createdTime>2025-08-13 00:18:19 UTC</createdTime>
 <ownerDesignName>bank_exam</ownerDesignName>
